@@ -101,7 +101,7 @@ public class Basics {
          */
         int n = 0;
         for (int i = 10; i >= n; i-- ){
-            String s = new String (String.valueOf(i));
+            String s = String.valueOf(i);
             System.out.println("Current count: " + s);
         }
 
